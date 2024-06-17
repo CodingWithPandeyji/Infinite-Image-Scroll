@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Gallery from "./components/Gallery";
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="App">
+      <h1 className="text-center text-[30px] font-bold	">Infinite Scrolling Gallery</h1>
+      <Gallery />
+    </div>
+  );
+};
 
-export default App
+export default App;

@@ -1,3 +1,16 @@
-.option {
-  transition: all 200ms;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.image-item {
+  margin: 10px;
+}
+
+.image-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
